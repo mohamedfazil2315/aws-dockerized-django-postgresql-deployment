@@ -93,36 +93,19 @@ SQLite was replaced with PostgreSQL to achieve better scalability, reliability, 
 ```text
 aws-dockerized-django-postgresql-deployment/
 │
-├── app/
-│   ├── Dockerfile
-│   ├── requirements.txt
-│   ├── manage.py
-│   ├── project/
-│   └── .env.example
-│
-├── architecture/
-│   └── architecture-diagram.png
-│
-├── screenshots/
-│   ├── django-homepage.png
-│   ├── admin-panel.png
-│   ├── docker-containers.png
-│   └── migrations-success.png
-│
-├── scripts/
-│   ├── deploy.sh
-│   ├── backup.sh
-│   └── restore.sh
-│
-├── docs/
-│   ├── installation-guide.md
-│   └── troubleshooting.md
-│
 ├── README.md
-└── .gitignore
-```
-
+├── Dockerfile
+├── requirements.txt
+├── .env.example
+│
+├── manage.py
+├── project/
+├── app/
+├── templates/
+├── static/
+└── requirements.txt
 ---
+```
 
 ## AWS Security Group Configuration
 
