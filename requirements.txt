@@ -1,0 +1,4 @@
+Django==5.x.x
+psycopg2-binary==2.9.x
+gunicorn==23.x.x
+python-dotenv==1.x.x
